@@ -289,7 +289,63 @@
         }
 
         /* --------------------------------
-           SECTION 3: BUILD YOUR OWN PACK
+           SECTION 3: ICONS - WEAR FEMTTOSS FOR
+        -------------------------------- */
+
+        .icon-section {
+            text-align: center;
+            padding: 100px 5%;
+            width: 100%;
+        }
+
+        .icon-section h2 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .blue-line {
+            width: 40px;
+            height: 3px;
+            background-color: var(--cyan-primary);
+            margin: 0 auto 60px;
+        }
+
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .icon-item {
+            min-width: 0;
+            text-align: center;
+        }
+
+        .icon-circle {
+            width: 100px;
+            height: 100px;
+            border: 1px solid var(--cyan-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .icon-circle svg {
+            width: 50px;
+            height: 50px;
+            stroke: var(--cyan-primary);
+            fill: none;
+            stroke-width: 1.5;
+        }
+
+        /* --------------------------------
+           SECTION 4: BUILD YOUR OWN PACK
         -------------------------------- */
 
         .editorial-section {
@@ -378,62 +434,6 @@
             border-radius: 12px;
             display: block;
             object-fit: cover;
-        }
-
-        /* --------------------------------
-           SECTION 4: ICONS
-        -------------------------------- */
-
-        .icon-section {
-            text-align: center;
-            padding: 100px 5%;
-            width: 100%;
-        }
-
-        .icon-section h2 {
-            font-family: var(--font-heading);
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            margin-bottom: 15px;
-        }
-
-        .blue-line {
-            width: 40px;
-            height: 3px;
-            background-color: var(--cyan-primary);
-            margin: 0 auto 60px;
-        }
-
-        .icon-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 40px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .icon-item {
-            min-width: 0;
-            text-align: center;
-        }
-
-        .icon-circle {
-            width: 100px;
-            height: 100px;
-            border: 1px solid var(--cyan-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 20px;
-        }
-
-        .icon-circle svg {
-            width: 50px;
-            height: 50px;
-            stroke: var(--cyan-primary);
-            fill: none;
-            stroke-width: 1.5;
         }
 
         /* --------------------------------
@@ -588,7 +588,6 @@
 
             .icon-grid {
                 grid-template-columns: repeat(3, 1fr);
-                gap: 40px 20px;
             }
 
             .footer-grid {
@@ -705,6 +704,40 @@
                 border-radius: 22px;
             }
 
+            /* WEAR FEMTTOSS FOR */
+
+            .icon-section {
+                padding: 65px 5%;
+            }
+
+            .icon-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .blue-line {
+                margin-bottom: 40px;
+            }
+
+            .icon-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 35px 12px;
+            }
+
+            .icon-circle {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 12px;
+            }
+
+            .icon-circle svg {
+                width: 40px;
+                height: 40px;
+            }
+
+            .icon-item p {
+                font-size: 0.9rem;
+            }
+
             /* BUILD YOUR OWN PACK */
 
             .editorial-section {
@@ -748,40 +781,6 @@
 
             .ed-glass-box {
                 max-width: 550px;
-            }
-
-            /* ICONS */
-
-            .icon-section {
-                padding: 65px 5%;
-            }
-
-            .icon-section h2 {
-                font-size: 1.5rem;
-            }
-
-            .blue-line {
-                margin-bottom: 40px;
-            }
-
-            .icon-grid {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 35px 12px;
-            }
-
-            .icon-circle {
-                width: 80px;
-                height: 80px;
-                margin-bottom: 12px;
-            }
-
-            .icon-circle svg {
-                width: 40px;
-                height: 40px;
-            }
-
-            .icon-item p {
-                font-size: 0.9rem;
             }
 
             /* FOOTER */
@@ -870,18 +869,6 @@
                 font-size: 0.85rem;
             }
 
-            .editorial-section {
-                padding: 50px 5%;
-            }
-
-            .ed-text h2 {
-                font-size: 2.15rem;
-            }
-
-            .ed-text p {
-                font-size: 0.95rem;
-            }
-
             .icon-section {
                 padding: 50px 4%;
             }
@@ -907,6 +894,18 @@
 
             .icon-item p {
                 font-size: 0.85rem;
+            }
+
+            .editorial-section {
+                padding: 50px 5%;
+            }
+
+            .ed-text h2 {
+                font-size: 2.15rem;
+            }
+
+            .ed-text p {
+                font-size: 0.95rem;
             }
 
             footer {
@@ -968,6 +967,7 @@
 <body>
 
     <!-- MARQUEE SECTION -->
+
     <div class="marquee-container">
         <div class="marquee-content">
 
@@ -1099,56 +1099,7 @@
     </section>
 
 
-    <!-- 3. BUILD YOUR OWN PACK -->
-
-    <section class="editorial-section">
-
-        <div class="editorial-grid">
-
-            <div class="ed-text">
-
-                <span class="ed-brand">Femttoss</span>
-
-                <h2>
-                    Build your own <span>pack</span>
-                </h2>
-
-                <p>
-                    Create a pack that’s made just for you.
-                    Choose your preferred size, variant, and number
-                    of units to build the perfect FEMTTOSS pack
-                    for your needs.
-                </p>
-
-                <a
-                    href="https://homepagefemttoss.netlify.app/#"
-                    class="cta-button"
-                >
-                    Explore Solutions
-                </a>
-
-            </div>
-
-
-            <div class="ed-visual">
-
-                <div class="ed-glass-box">
-
-                    <img
-                        src="https://i.postimg.cc/9FXzdCvh/1785679888999.png"
-                        alt="Femttoss Pack"
-                    >
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- 4. ICONS -->
+    <!-- 3. WEAR FEMTTOSS FOR -->
 
     <section class="icon-section">
 
@@ -1221,6 +1172,55 @@
                 </div>
 
                 <p>Spotting</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- 4. BUILD YOUR OWN PACK -->
+
+    <section class="editorial-section">
+
+        <div class="editorial-grid">
+
+            <div class="ed-text">
+
+                <span class="ed-brand">Femttoss</span>
+
+                <h2>
+                    Build your own <span>pack</span>
+                </h2>
+
+                <p>
+                    Create a pack that’s made just for you.
+                    Choose your preferred size, variant, and number
+                    of units to build the perfect FEMTTOSS pack
+                    for your needs.
+                </p>
+
+                <a
+                    href="https://homepagefemttoss.netlify.app/#"
+                    class="cta-button"
+                >
+                    Explore Solutions
+                </a>
+
+            </div>
+
+
+            <div class="ed-visual">
+
+                <div class="ed-glass-box">
+
+                    <img
+                        src="https://i.postimg.cc/9FXzdCvh/1785679888999.png"
+                        alt="Femttoss Pack"
+                    >
+
+                </div>
 
             </div>
 
